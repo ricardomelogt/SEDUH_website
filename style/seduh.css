@@ -149,6 +149,15 @@ ul.sub-menu {
     height: inherit;
 }
 
+.insta a i.insta_icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 40px auto 0 auto;
+    background-image: url('../img/instagram.png');
+    background-size: cover;
+}
+
 /* conteúdo */
 
 /* conteúdo - noticias home */
@@ -253,4 +262,41 @@ ul.links-home {
     padding: 10%;
     box-sizing: border-box;
     font-size: 1.2em;
+}
+
+/* paginas internas */
+
+h2 {
+    border-bottom: 2px solid #E6222C;
+    max-width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #092A57;
+    font-size: 1.8em;
+}
+
+/* sobre.html */
+
+.sobre-box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sobre-box img {
+    min-width: 300px;
+    max-height: 300px;
+}
+
+.sobre-box p {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* missao.html */
+
+.missao-img {
+    max-width: 100%;
 }
